@@ -1,0 +1,17 @@
+{
+  // 保存时修复 stylelint
+  "editor.codeActionsOnSave": {
+    "source.fixAll.stylelint": true
+  },
+
+  // 关闭vscode内置校验，开启stylelint校验、解析器
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "stylelint.enable": true,
+  "stylelint.customSyntax": "postcss-scss",
+  "stylelint.validate": ["css", "scss", "postcss"],
+
+  // 光标行为
+  "editor.cursorBlinking": "expand"
+}

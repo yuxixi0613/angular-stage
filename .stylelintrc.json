@@ -1,0 +1,44 @@
+{
+  "extends": "stylelint-config-standard-scss",
+  "plugins": [
+    "stylelint-order",
+    "stylelint-config-rational-order/plugin",
+    "stylelint-declaration-block-no-ignored-properties"
+  ],
+  "customSyntax": "postcss-scss",
+
+  "rules": {
+    "declaration-empty-line-before": null,
+
+    "scss/comment-no-empty": null,
+    "scss/at-rule-no-unknown": [true, { "ignoreAtRules": ["tailwind"] }],
+    "scss/double-slash-comment-empty-line-before": null,
+    "scss/at-mixin-argumentless-call-parentheses": null,
+
+    "plugin/declaration-block-no-ignored-properties": true,
+    "declaration-block-no-redundant-longhand-properties": [
+      true,
+      {
+        "ignoreShorthands": ["inset"]
+      }
+    ],
+
+    "plugin/rational-order": [
+      true,
+      {
+        "border-in-box-model": false,
+        "empty-line-between-groups": true
+      }
+    ],
+    "order/properties-order": [],
+
+    "selector-pseudo-element-no-unknown": [
+      true,
+      {
+        "ignorePseudoElements": ["ng-deep"]
+      }
+    ]
+  },
+
+  "ignoreFiles": ["src/assets/**/*"]
+}

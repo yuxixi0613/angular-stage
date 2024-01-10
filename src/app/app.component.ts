@@ -8,8 +8,23 @@ import { MatSlideToggleModule } from '@angular/material/slide-toggle';
   standalone: true,
   imports: [CommonModule, RouterOutlet, MatSlideToggleModule],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss',
+  styleUrl: './app.component.scss'
 })
 export class AppComponent {
   title = 'ng17';
+  a = 1;
+  qqq = 2;
+  zxc = '';
+
+  qwe() {
+    let asd = 1;
+    switch (asd) {
+      case 1:
+        break;
+
+      default:
+    }
+  }
+
+  asd() {}
 }
