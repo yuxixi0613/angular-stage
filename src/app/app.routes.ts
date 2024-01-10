@@ -6,8 +6,8 @@ export const routes: Routes = [
   {
     path: 'school-manage',
     title: '校园管理',
-    component: SchoolManageComponent,
-  },
+    component: SchoolManageComponent
+  }
   // {
   //   path: 'school-consume',
   //   title: '校园消费',

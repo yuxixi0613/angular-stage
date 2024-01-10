@@ -1,8 +1,12 @@
 //
-// ::ng-deep .qwe {
-//   width: 2px;
-//   height: 1px;
-// }
+
+.floating-div {
+  transition: transform 0.3s ease-in-out; /* 添加动画过渡效果 */
+}
+
+.floating-div:hover {
+  transform: translateY(-5px); /* 当鼠标悬浮时，向上移动5像素 */
+}
 
 .declaration-order {
   /* Positioning */
@@ -14,7 +18,6 @@
   z-index: 10;
 
   /* Box Model */
-
   display: block;
   width: 100px;
   height: 100px;
@@ -41,6 +44,3 @@
   /* Misc */
   user-select: none;
 }
-
-// .qwe::after {
-// }

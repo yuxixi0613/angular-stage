@@ -9,11 +9,13 @@
 
   "rules": {
     "declaration-empty-line-before": null,
+    "no-empty-source": null,
 
     "scss/comment-no-empty": null,
     "scss/at-rule-no-unknown": [true, { "ignoreAtRules": ["tailwind"] }],
     "scss/double-slash-comment-empty-line-before": null,
     "scss/at-mixin-argumentless-call-parentheses": null,
+
 
     "plugin/declaration-block-no-ignored-properties": true,
     "declaration-block-no-redundant-longhand-properties": [

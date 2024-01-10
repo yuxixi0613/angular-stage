@@ -31,6 +31,7 @@ module.exports = {
         'default-case': 'warn',
         'no-unused-vars': 'warn',
         'no-empty-function': 'warn',
+        '@angular-eslint/no-empty-lifecycle-method': 'off',
 
         'prettier/prettier': ['warn', prettierConfig],
         '@angular-eslint/directive-selector': [

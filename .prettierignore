@@ -5,5 +5,9 @@ coverage/
 publish/
 dist/
 schematics/
+angular.json
 package.json
+tsconfig.app.json
+tsconfig.json
+tsconfig.spec.json
 **/template/*
