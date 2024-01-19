@@ -1,10 +1,25 @@
 import { Routes } from '@angular/router';
 import { SchoolManageComponent } from '@pages/school-manage/school-manage.component';
 import { LoginComponent } from './pages/login/login.component';
+import { InfpComponent } from './pages/infp/infp.component';
+import { WebComponent } from './pages/web/web.component';
+import { LibraryComponent } from './pages/library/library.component';
 
 // 一级路由
 export const routes: Routes = [
-  { path: '', redirectTo: '/login', pathMatch: 'full' },
+  { path: '', redirectTo: '', pathMatch: 'full' },
+  {
+    path: 'infp',
+    component: InfpComponent
+  },
+  {
+    path: 'web',
+    component: WebComponent
+  },
+  {
+    path: 'library',
+    component: LibraryComponent
+  },
   {
     path: 'login',
     component: LoginComponent,
