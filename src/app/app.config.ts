@@ -1,7 +1,7 @@
 import { ApplicationConfig, importProvidersFrom } from '@angular/core';
 import { provideRouter } from '@angular/router';
 
-import { routes } from './app.routes';
+import { routes, appRoutes } from './app.routes';
 import { provideAnimations } from '@angular/platform-browser/animations';
 import { zh_CN, provideNzI18n } from 'ng-zorro-antd/i18n';
 import { registerLocaleData } from '@angular/common';
@@ -13,7 +13,7 @@ registerLocaleData(zh);
 
 export const appConfig: ApplicationConfig = {
   providers: [
-    provideRouter(routes),
+    provideRouter(appRoutes),
     provideAnimations(),
     provideNzI18n(zh_CN),
     importProvidersFrom(FormsModule),

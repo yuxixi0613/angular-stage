@@ -10,7 +10,7 @@ import {
 import { NzIconModule } from 'ng-zorro-antd/icon';
 
 @Component({
-  selector: 'app-layout-default',
+  selector: 'app-default',
   imports: [
     NzIconModule,
     NzSubMenuComponent,

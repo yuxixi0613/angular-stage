@@ -1,4 +1,4 @@
-import { Routes } from '@angular/router';
+import { Route, Routes } from '@angular/router';
 import { SchoolManageComponent } from '@pages/school-manage/school-manage.component';
 import { LoginComponent } from './pages/login/login.component';
 import { InfpComponent } from './pages/infp/infp.component';
@@ -33,10 +33,12 @@ export const routes: Routes = [
   }
 ];
 
-// export const appRoutes = [
-//   { path: '', redirectTo: '/login/login-form', pathMatch: 'full' },
-//   { path: 'blank', loadChildren: () => import('./layout/blank/blank-routing') },
-//   { path: 'login', data: { preload: true }, loadChildren: () => import('./pages/login/login-routing') },
-//   { path: 'default', data: { preload: true }, loadChildren: () => import('./layout/default/default-routing') },
-//   { path: '**', redirectTo: '/login/login-form' }
-// ] as Routes;
+export const appRoutes = [
+  { path: '', redirectTo: '/default', pathMatch: 'full' },
+  {
+    path: 'default',
+    data: { preload: true },
+    loadChildren: () => import('./layout/default/default-routing')
+  },
+  { path: '**', redirectTo: '/login/login-form' }
+] satisfies Route[];
