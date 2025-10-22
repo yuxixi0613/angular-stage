@@ -15,8 +15,6 @@ module.exports = {
   trailingComma: 'none',
   endOfLine: 'auto',
 
-
-
   attributeGroups: [
     '$ANGULAR_STRUCTURAL_DIRECTIVE',
     '$ANGULAR_ELEMENT_REF',
