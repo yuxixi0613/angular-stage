@@ -12,21 +12,20 @@ import {
 import { NzIconModule } from 'ng-zorro-antd/icon';
 
 @Component({
-  selector: 'app-layout-default',
-  standalone: true,
-  imports: [
-    RouterLink,
-    NzIconModule,
-    NzSubMenuTitleComponent,
-    NzSubMenuComponent,
-    NzMenuItemComponent,
-    NzMenuModule,
-    RouterOutlet,
-    NzLayoutModule,
-    NzBreadCrumbModule,
-    NzAvatarModule
-  ],
-  templateUrl: './default.component.html',
-  styleUrl: './default.component.scss'
+    selector: 'app-layout-default',
+    imports: [
+        RouterLink,
+        NzIconModule,
+        NzSubMenuTitleComponent,
+        NzSubMenuComponent,
+        NzMenuItemComponent,
+        NzMenuModule,
+        RouterOutlet,
+        NzLayoutModule,
+        NzBreadCrumbModule,
+        NzAvatarModule
+    ],
+    templateUrl: './default.component.html',
+    styleUrl: './default.component.scss'
 })
 export class DefaultComponent {}
