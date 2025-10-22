@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ng17": {
+    "angular-stage": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -27,7 +27,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/ng17",
+            "outputPath": "dist/angular-stage",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -80,10 +80,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "ng17:build:production"
+              "buildTarget": "angular-stage:build:production"
             },
             "development": {
-              "buildTarget": "ng17:build:development"
+              "buildTarget": "angular-stage:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -91,7 +91,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "ng17:build"
+            "buildTarget": "angular-stage:build"
           }
         },
         "test": {

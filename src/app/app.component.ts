@@ -19,5 +19,5 @@ import { DefaultComponent } from './layout/default/default.component';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'ng17';
+  title = 'Angular Stage';
 }

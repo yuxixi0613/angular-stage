@@ -1,5 +1,5 @@
 {
-  "name": "ng18",
+  "name": "@kiko/angular-stage",
   "version": "0.0.0",
   "engines": {
     "node": ">=20.19.0"
