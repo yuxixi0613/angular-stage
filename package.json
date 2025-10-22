@@ -14,15 +14,15 @@
   },
   "private": true,
   "dependencies": {
-    "@angular/animations": "^19.2.15",
+    "@angular/animations": "^20.3.6",
     "@angular/cdk": "^19.2.19",
-    "@angular/common": "^19.2.15",
-    "@angular/compiler": "^19.2.15",
-    "@angular/core": "^19.2.15",
-    "@angular/forms": "^19.2.15",
-    "@angular/platform-browser": "^19.2.15",
-    "@angular/platform-browser-dynamic": "^19.2.15",
-    "@angular/router": "^19.2.15",
+    "@angular/common": "^20.3.6",
+    "@angular/compiler": "^20.3.6",
+    "@angular/core": "^20.3.6",
+    "@angular/forms": "^20.3.6",
+    "@angular/platform-browser": "^20.3.6",
+    "@angular/platform-browser-dynamic": "^20.3.6",
+    "@angular/router": "^20.3.6",
     "ng-zorro-antd": "^19.3.1",
     "postcss-scss": "^4.0.9",
     "rxjs": "~7.8.0",
@@ -30,14 +30,14 @@
     "zone.js": "~0.15.1"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^19.2.18",
     "@angular-eslint/builder": "17.1.1",
     "@angular-eslint/eslint-plugin": "17.1.1",
     "@angular-eslint/eslint-plugin-template": "17.1.1",
     "@angular-eslint/schematics": "17.1.1",
     "@angular-eslint/template-parser": "17.1.1",
-    "@angular/cli": "^19.2.18",
-    "@angular/compiler-cli": "^19.2.15",
+    "@angular/build": "^20.3.6",
+    "@angular/cli": "^20.3.6",
+    "@angular/compiler-cli": "^20.3.6",
     "@types/jasmine": "~5.1.0",
     "@typescript-eslint/eslint-plugin": "6.13.1",
     "@typescript-eslint/parser": "6.13.1",
@@ -51,6 +51,7 @@
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
+    "less": "^4.2.0",
     "postcss": "^8.4.33",
     "prettier": "^3.1.1",
     "prettier-plugin-tailwindcss": "^0.5.11",
@@ -60,6 +61,6 @@
     "stylelint-declaration-block-no-ignored-properties": "^2.8.0",
     "stylelint-order": "^6.0.4",
     "tailwindcss": "^3.4.0",
-    "typescript": "~5.5.4"
+    "typescript": "~5.9.3"
   }
 }
