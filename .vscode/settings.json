@@ -13,5 +13,54 @@
   "stylelint.validate": ["css", "scss", "postcss"],
 
   // 光标行为
-  "editor.cursorBlinking": "expand"
+  "editor.cursorBlinking": "expand",
+  "angular-schematics.schematicsDefaultOptions": {
+    "angular-component": {
+      "suffix": "component",
+      "fileNameSuffix": ".component",
+      "ngOnInit": true,
+      "skipChangeDetectionOnPush": true
+    },
+    "angular-directive": {
+      "suffix": "directive",
+      "fileNameSuffix": ".directive"
+    },
+    "angular-service": {
+      "suffix": "service",
+      "fileNameSuffix": ".service"
+    },
+    "angular-pipe": {
+      "fileNameSuffix": ".pipe"
+    },
+    "angular-guard": {
+      "fileNameSuffix": ".guard"
+    },
+    "angular-interceptor": {
+      "fileNameSuffix": ".interceptor"
+    },
+    "angular-resolver": {
+      "fileNameSuffix": ".resolver"
+    },
+    "angular-async-reactive-service": {
+      "fileNameSuffix": ".service"
+    },
+    "angular-sync-reactive-service": {
+      "fileNameSuffix": ".service"
+    },
+    "angular-page": {
+      "fileNameSuffix": ".page",
+      "skipChangeDetectionOnPush": true
+    },
+    "angular-material-dialog": {
+      "fileNameSuffix": ".dialog"
+    },
+    "angular-material-table": {
+      "suffix": "component",
+      "fileNameSuffix": ".component"
+    },
+    "angular-*": {
+      "style": "scss",
+      "externalTemplate": true
+    }
+  }
 }
